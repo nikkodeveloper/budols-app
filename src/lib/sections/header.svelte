@@ -11,12 +11,15 @@
                     <img src="{logo}" alt="budols-logo" />
                 </a>
             </div>
-            <nav class="flex gap-1 items-center text-neutral-300 text-sm">
-                <a href="#" class="py-4 px-4 bg-gradient-to-t"><span class="drop-shadow">Home</span></a>
+            <nav class="flex gap-1 items-center text-neutral-300 text-sm ">
+                <a href="#" class="py-4 px-4"><span class="drop-shadow">Home</span></a>
                 <a href="#" class="py-4 px-4">Categories</a>
                 <a href="#" class="py-4 px-4">About Us</a>
             </nav>
         </div>
-        <Button href="#" variant="outline">Explore Top Budols</Button>
+        <Button href="#" class="bg-neutral-950 hover:bg-green-2222 hover:border-green-2222 border border-neutral-600 flex gap-2">
+            <iconify-icon icon="game-icons:banana-peeled" width="20" height="20" class="text-yellow-400 drop-shadow-md"></iconify-icon>
+            <span class="drop-shadow-md">Explore Top Budols</span>
+        </Button>
     </div>
 </header>

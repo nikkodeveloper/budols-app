@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.pcss';
+	import 'iconify-icon';
 	import Header from "$lib/sections/header.svelte"
 </script>
 
